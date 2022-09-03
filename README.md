@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Ystinia Zalatova
-- 👀 I’m interested in ...
+- 👀 I’m interested in _[hidden]_
 - 🌱 I’m currently learning embedded Linux devices
-- 💞️ I’m looking to collaborate on [OpenIPC](https:openipc.org)
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on [OpenIPC](https://openipc.org)
+- 📫 How to reach me _[hidden]_
 
 -----
 
