@@ -1,18 +1,14 @@
+# Experiments with Nimble Streamer
 
-## Create
 
-```
-docker build --no-cache -t nimble:latest .
-```
+### Create image
 
-## Start
+`docker build --no-cache -t nimble:latest .`
 
-```
-docker run -d --rm --name nimble --hostname nimble -p 0.0.0.0:514:514 -p 0.0.0.0:1935:1935 -p 0.0.0.0:8000:8000 -p 0.0.0.0:8181:8181 nimble
-```
+### Start container
 
-## Remove
+`docker run -d --rm --name nimble --hostname nimble -p 0.0.0.0:514:514 -p 0.0.0.0:1935:1935 -p 0.0.0.0:8000:8000 -p 0.0.0.0:8181:8181 nimble`
 
-```
-docker rm nimble ; docker rmi nimble ; docker rmi ubuntu:focal
-```
+### Remove container and images
+
+`docker rm nimble ; docker rmi nimble ; docker rmi ubuntu:focal`
