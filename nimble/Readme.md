@@ -13,10 +13,10 @@
 
 `docker stop nimble`
 
-`docker rm nimble`  # If there are errors in the work
+`docker rm nimble  # If there are errors in the work`
 
 ### Remove images
 
-`docker rmi nimble'
+`docker rmi nimble`
 
 `docker rmi ubuntu:focal`
