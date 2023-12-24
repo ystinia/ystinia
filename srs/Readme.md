@@ -4,7 +4,7 @@
 ### Start prepared SRS image
 
 ```
-docker run --rm -it -p 1935:1935 -p 1985:1985 -p 8080:8080 ossrs/srs:4 ./objs/srs -c conf/docker.conf
+docker run --rm -it -p 1935:1935 -p 1985:1985 -p 8080:8080 ossrs/srs:5
 ```
 
 ### Part of majestic config
