@@ -1,21 +1,22 @@
 # Experiments with SRS Streamer
 
 
-### Start prepared image
+### Start prepared SRS image
 
 ```
 docker run --rm -it -p 1935:1935 -p 1985:1985 -p 8080:8080 ossrs/srs:4 ./objs/srs -c conf/docker.conf
-```
-
-### Play stream via VLC
-
-```
-rtmp://video.server.ip/openipc/openipc
 ```
 
 ### Part of majestic config
 
 ```
 outgoing:
-  - rtmp://video.server.ip:1935/openipc
+  enabled: true
+  server: rtmp://172.19.32.17:1935/live/openipc-19-178
+```
+
+### Play stream via MPV
+
+```
+rtmp://172.19.32.17/live/openipc-19-178
 ```
