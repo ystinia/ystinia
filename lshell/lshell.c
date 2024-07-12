@@ -1,3 +1,7 @@
+/**
+ * Based on a project from @conorbros
+ */
+
 #include <signal.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -6,7 +10,7 @@
 #include <string.h>
 #include <sys/wait.h>
 
-#define DEFAULT_PATH "/home/zig/z/A/lshell"
+#define DEFAULT_PATH "/usr/share/openipc"
 
 char **paths;
 size_t paths_c = 0;
