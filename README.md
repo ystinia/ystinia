@@ -1,4 +1,4 @@
-- 👋 Hi, my name is Ystinia Zalatova and I am 18+ years old
+- 👋 Hi, my name is Ystinia Zalatova
 - 👀 I’m interested in _[hidden]_
 - 🌱 I am currently learning about embedded Linux devices and how to run cool services on them for ordinary users  
 - 💞️ I have a small partnership with a great company [OpenIPC](https://openipc.org)
